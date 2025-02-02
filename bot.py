@@ -30,7 +30,7 @@ st.markdown(hide_main_menu, unsafe_allow_html=True)
 # Set up Session State
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "assistant", "content": "Hi, I'm the SCM Chatbot!  How can I help you?"},
+        {"role": "assistant", "content": "Hi, I'm the Locates Chatbot!  How can I help you?"},
     ]
 # end::session[]
 

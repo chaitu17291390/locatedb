@@ -1,7 +1,7 @@
-langchain
-langchain-community
+langchain=0.2.14
+langchain-community=0.2.12
 openai
-pydantic
+pydantic=2.8.2
 neo4j
-langchain-openai
-streamlit
+langchain-openai=0.1.22
+streamlit=1.37.1
