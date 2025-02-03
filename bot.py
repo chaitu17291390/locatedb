@@ -30,7 +30,7 @@ st.markdown(hide_main_menu, unsafe_allow_html=True)
 add_background_image = """
     <style>
     .stApp {
-        background-image: url('https://adaptive-cards.s3.us-east-1.amazonaws.com/samsara1.png');  /* URL of your background image */
+        background-image: url('https://adaptive-cards.s3.us-east-1.amazonaws.com/samsara2.png');  /* URL of your background image */
         background-size: cover;  /* Cover the entire screen */
         background-position: center;  /* Center the image */
         height: 100vh;  /* Ensure the image covers the entire viewport height */
@@ -65,11 +65,12 @@ add_border_style = """
     <style>
     .st-emotion-cache-1n76uvr.e1f1d6gn2 {
         margin-top:60px;
-        border: 2px solid #3498db;  /* Change the color and style of the border */
+        border: 3px solid #3498db;  /* Change the color and style of the border */
         border-radius: 10px;  /* Optional: Add rounded corners */
+        box-shadow:4px 4px 15px rgba(52, 152, 219, 0.5);
         padding: 15px;  /* Optional: Adjust padding if needed */
         background-color:white;
-        width:50vw;
+        width:52vw;
     }
     /* Remove the container with the class 'st-emotion-cache-qcqlej ea3mdgi1' */
     .st-emotion-cache-qcqlej.ea3mdgi1 {
